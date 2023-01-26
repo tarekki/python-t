@@ -1,0 +1,15 @@
+print(type(10))
+print(type(10.0))
+print(type(2+3j))
+a=1+2j
+print(f"{a.real}\n{a.imag}")
+b=10
+print("{:.10f}".format(b))
+d=159.650
+print(f"{int(d)}\n{type(d)}")
+e=100-115
+f=50*30
+g=21%4
+h=110//11
+k=97//20
+print(f"{e}\n{f}\n{g}\n{h}\n{k}")
